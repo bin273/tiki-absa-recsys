@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- CẤU HÌNH BỔ SUNG CHO DỰ ÁN DATA SCIENCE ---
+
+# Chặn các file dữ liệu quá nặng (Giữ lại cấu trúc thư mục)
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.json
+
+# Chặn các file mô hình đã huấn luyện có dung lượng lớn
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt

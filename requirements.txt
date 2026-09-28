@@ -1,0 +1,26 @@
+# Crawl data
+requests>=2.31.0
+playwright>=1.40.0
+
+# Data Analysis & Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Vietnamese NLP
+underthesea>=6.8.0
+pyvi>=0.1.1
+
+# EDA & Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.18.0
+wordcloud>=1.9.0
+
+# Machine Learning & Recommendation System
+scikit-learn>=1.3.0
+scikit-surprise>=1.1.3
+joblib>=1.3.0
+
+# Deep Learning (nếu làm mở rộng PhoBERT)
+torch>=2.0.0
+transformers>=4.35.0
